@@ -416,6 +416,13 @@ let perguntas = [
     alternativas: ["Fortalecimento da visão teocêntrica e da autoridade da Igreja", "Consolidação do feudalismo como sistema dominante", "Substituição da visão religiosa por uma perspectiva secular e antropocêntrica", "Retorno aos valores medievais e à centralidade da fé"],
     correta: 2
   },
+     {
+    pergunta: "83. ",
+    alternativas: ["Astronomia", "Cartografia", "Arte e ciência", "Reforma religiosa"],
+    correta: 2
+  },
+
+
 
 ];
 
@@ -494,3 +501,4 @@ function finalizarQuiz() {
   let texto = `Certifico que o aluno ${nome} alcançou a pontuação de ${pontuacao} referente à aula de ${materia}.`;
   document.getElementById("textoCertificado").innerText = texto;
 }
+
