@@ -53,7 +53,7 @@ let perguntas = [
   },
    {
     pergunta: "11-No processo de formação das monarquias nacionais europeias, o desenvolvimento do comércio e das cidades...?",
-    alternativas: ["Criou a necessidade de centralização do poder para unificar os tributos, as moedas, os pesos e as meddas, as leis e mesmo a língua.", "Ocorreu sob uma luta de interesses que aliou a burguesia<br>, a igreja, os artesões e os servos contra o rei e a nobreza.", "Contribuiu para que a nobreza e a burguesia impusessem uma autoridade de cunho particularista no controle das cidades.", "Criou condições para que a autoridade do rei, no Estado moderno, fosse limitada pelo Parlamento."],
+    alternativas: ["Criou a necessidade de centralização do poder para unificar os tributos, as moedas, os pesos e as medidas, as leis e mesmo a língua.", "Ocorreu sob uma luta de interesses que aliou a burguesia, a igreja, os artesões e os servos contra o rei e a nobreza.", "Contribuiu para que a nobreza e a burguesia impusessem uma autoridade de cunho particularista no controle das cidades.", "Criou condições para que a autoridade do rei, no Estado moderno, fosse limitada pelo Parlamento."],
     correta: 0
   },
   {
@@ -360,6 +360,61 @@ let perguntas = [
     pergunta: "71. Qual invenção de Johannes Gutenberg revolucionou a disseminação do conhecimento?",
     alternativas: ["Telescópio", "Prensa tipográfica", "Bússola", "Astrolábio"],
     correta: 1
+  },
+     {
+    pergunta: "72.Qual foi a principal contribuição de Nicolau Copérnico para a ciência?",
+    alternativas: ["Teoria geocêntrica", "Invenção do telescópio", "Teoria heliocêntrica", "Leis do movimento planetário"],
+    correta: 2
+  },
+    {
+    pergunta: "73.Qual instrumento foi usado por Galileu Galilei para observar os astros?",
+    alternativas: ["Astrolábio", "Telescópio", "Bússola","Microscópio"],
+    correta: 1
+  },
+      {
+    pergunta: "74.Johannes Kepler é conhecido por ter formulado:",
+    alternativas: ["A teoria da relatividade", "A teoria heliocêntrica", "As leis do movimento planetário", "A projeção cartográfica de Mercator"],
+    correta: 2
+  },
+       {
+    pergunta: "75.- O Renascimento questionava principalmente:",
+    alternativas: ["A economia feudal", "A autoridade da Igreja medieval", "A arte clássica", "A expansão marítima"],
+    correta: 1
+  },
+        {
+    pergunta: "76. O que era considerado pecado pela Igreja medieval e dificultava o comércio?",
+    alternativas: ["Agricultura", "Usura (cobrança de juros)", "Troca de mercadorias", "Construção de igrejas"],
+    correta: 1
+  },
+         {
+    pergunta: "77. - A Reforma Protestante foi impulsionada por críticas como:",
+    alternativas: ["A valorização do lucro", "A venda de indulgências", "A tradução da Bíblia para o latim", "A construção de universidades"],
+    correta: 1
+  },
+          {
+    pergunta: "78. - Martinho Lutero defendia que a salvação vinha por:",
+    alternativas: ["Boas obras", "Doações à Igreja", "Fé","Peregrinações"],
+    correta: 2
+  },
+           {
+    pergunta: "79. - O que era a simonia na Igreja medieval?",
+    alternativas: ["Venda de relíquias e cargos eclesiásticos", "Tradução da Bíblia", "Criação de universidades", "Expansão das catedrais"],
+    correta: 0
+  },
+            {
+    pergunta: "80.Gerardus Mercator ficou famoso por:",
+    alternativas: ["Criar leis da física", "Inventar o telescópio", "Desenvolver uma projeção cartográfica", "Formular a teoria heliocêntrica"],
+    correta: 2
+  },
+              {
+    pergunta: "81.- Leonardo da Vinci se destacou por suas contribuições à:",
+    alternativas: ["Astronomia", "Cartografia", "Arte e ciência", "Reforma religiosa"],
+    correta: 2
+  },
+    {
+    pergunta: "82. Durante o Renascimento, qual foi uma das principais mudanças na forma de compreender o mundo?",
+    alternativas: ["Fortalecimento da visão teocêntrica e da autoridade da Igreja", "Consolidação do feudalismo como sistema dominante", "Substituição da visão religiosa por uma perspectiva secular e antropocêntrica", "Retorno aos valores medievais e à centralidade da fé"],
+    correta: 2
   },
 
 ];
