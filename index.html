@@ -1,22 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Quiz de História — Abertura</title>
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Prova de História</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+    .start-button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .start-button:hover {
+      background-color: #45a049;
+    }
+    img {
+      max-width: 80%;
+      height: auto;
+      margin-top: 30px;
+    }
+  </style>
 </head>
 <body>
-  <h1>Quiz Interativo de História</h1>
+  <h1>Bem-vindo à Prova de História</h1>
+  <p>Prepare-se para testar seus conhecimentos!</p>
 
-  <div id="intro-screen">
-    <!-- Imagem principal -->
-    <img src="imagens/Caio .png" alt="Imagem de Caio Ventura" width="300px" />
+  <!-- Imagem principal -->
+  <img src="imagens/Caio%20.png" alt="Imagem de introdução ao jogo">
 
-    <h2>Pronto para a aventura?</h2>
+  <!-- Botão para iniciar o jogo -->
+  <br>
+  <a href="index2.html">
+    <button class="start-button">Start Game</button>
+  </a>
 
-    <!-- Botão que leva para index.html -->
-    <button onclick="window.location.href='index.html'">🎮 Start Game</button>
-  </div>
+  <footer>
+    <p>&copy; 2025 Arsenio Bara</p>
+  </footer>
 </body>
 </html>

@@ -466,6 +466,7 @@ let perguntas = [
     alternativas: ["João", "Paulo", "Tiago", "Pedro"],
     correta: 1
   },  
+
 ];
 
 function iniciarQuiz() {
