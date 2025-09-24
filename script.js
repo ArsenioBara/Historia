@@ -416,7 +416,56 @@ let perguntas = [
     alternativas: ["Fortalecimento da visão teocêntrica e da autoridade da Igreja", "Consolidação do feudalismo como sistema dominante", "Substituição da visão religiosa por uma perspectiva secular e antropocêntrica", "Retorno aos valores medievais e à centralidade da fé"],
     correta: 2
   },
-
+     {
+    pergunta: "83. Qual foi uma das principais críticas de Martinho Lutero à Igreja Católica? ",
+    alternativas: ["A defesa da astronomia heliocêntrica", "A venda de indulgências", "A canonização de santos", "A construção de catedrais góticas"],
+    correta: 1
+  },
+   {
+    pergunta: "84.  Que documento Lutero escreveu que marcou o início da Reforma Protestante?",
+    alternativas: ["A Bíblia de Gutenberg","As 95 Teses", "A Confissão de Augsburgo", "O Livro dos Mártires"],
+    correta: 1
+  },
+   {
+    pergunta: "85.  Que documento Lutero escreveu que marcou o início da Reforma Protestante?",
+    alternativas: ["Transubstanciação", "Predestinação", "Livre-arbítrio absoluto", "Infalibilidade papal"],
+    correta: 1
+  },
+    {
+    pergunta: "86.Qual sociólogo relacionou o calvinismo ao surgimento do capitalismo moderno?",
+    alternativas: ["Karl Marx", "Max Weber", "Émile Durkheim", "Auguste Comte"],
+    correta: 1
+  },
+     {
+    pergunta: "87. Qual prática religiosa foi rejeitada pelos calvinistas?",
+    alternativas: ["Leitura da Bíblia", "Orações individuais", "Sacramentos católicos", "Pregação do evangelho"],
+    correta: 2
+  },
+      {
+    pergunta: "88.  Por que Henrique VIII rompeu com a Igreja Católica?",
+    alternativas: ["Para fundar o calvinismo", "Porque o Papa recusou anular seu casamento", "Por influência de João Huss", "Para traduzir a Bíblia para o inglês"],
+    correta: 1
+  },
+     {
+    pergunta: "89.  Quem influenciou as ideias de João Calvino?",
+    alternativas: ["Tomás de Aquino", "Ulrico Zwinglio", "João Huss", "Martinho Lutero"],
+    correta: 1
+  },
+    {
+    pergunta: "90. Qual foi o papel de Thomas Cranmer na Reforma Inglesa?",
+    alternativas: ["Afixar as 95 Teses", "Traduzir a Bíblia para o alemão", "Desenvolver a teologia anglicana", "Fundar o calvinismo"],
+    correta: 2
+  },
+  {
+    pergunta: "91.Qual característica marcante da Catedral Anglicana de Liverpool é destacada?",
+    alternativas: ["Uso como sede papal","Arquitetura gótica e iluminação interna", "Construção no século XII", "Função como museu histórico"],
+    correta: 1
+  },
+  {
+    pergunta: "92. Qual apóstolo escreveu cartas importantes do Novo Testamento?",
+    alternativas: ["João", "Paulo", "Tiago", "Pedro"],
+    correta: 1
+  },  
 ];
 
 function iniciarQuiz() {
@@ -494,3 +543,4 @@ function finalizarQuiz() {
   let texto = `Certifico que o aluno ${nome} alcançou a pontuação de ${pontuacao} referente à aula de ${materia}.`;
   document.getElementById("textoCertificado").innerText = texto;
 }
+

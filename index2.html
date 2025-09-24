@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quiz Monarquias nacionais europeias e expansão marítima</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <h1>Quiz Interativo de história</h1>
+  <div id="start-screen">
+    <input type="text" id="nome" placeholder="Digite seu nome completo" />
+    <input type="text" id="materia" placeholder="Digite a matéria da aula" />
+    <button onclick="iniciarQuiz()">Iniciar Quiz</button>
+  </div>
+
+  <div id="quiz-screen" style="display:none;">
+    <!--<div id="cronometro">⏱️ Tempo: 600s</div>-->
+    <div id="pergunta"></div>
+    <div id="alternativas"></div>
+  </div>
+
+  <div id="resultado" style="display:none;">
+    <h2>Parabéns, <span id="nomeFinal"></span>!</h2>
+    <p>Sua pontuação: <span id="pontuacaoFinal"></span></p>
+    <div id="certificado">
+      <h3>📜 Certificado de Conclusão</h3>
+      <p id="textoCertificado"></p>
+      <button onclick="window.print()">🖨️ Imprimir Certificado</button>
+    </div>
+  </div>
+
+  <audio id="somErro" src="som/errou.mp3"></audio>
+  <audio id="somAcerto" src="som/acertou.mp3"></audio>
+  <audio id="somFim" src="som/errou3.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
