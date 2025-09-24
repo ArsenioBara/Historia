@@ -29,9 +29,24 @@
     </div>
   </div>
 
-  <audio id="somErro" src="som/errou.mp3"></audio>
- <audio id="somAcerto" src="som/acertou.mp3" preload="auto"></audio>
-  <audio id="somFim" src="som/errou3.mp3"></audio>
-  <script src="script.js"></script>
+<!-- Som de erro -->
+<audio id="somErro" preload="auto">
+  <source src="som/errou.mp3" type="audio/mpeg">
+  <source src="som/errou.ogg" type="audio/ogg">
+</audio>
+
+<!-- Som de acerto -->
+<audio id="somAcerto" preload="auto">
+  <source src="som/acertou.mp3" type="audio/mpeg">
+  <source src="som/acertou.ogg" type="audio/ogg">
+</audio>
+
+<!-- Som de fim -->
+<audio id="somFim" preload="auto">
+  <source src="som/errou3.mp3" type="audio/mpeg">
+  <source src="som/errou3.ogg" type="audio/ogg">
+</audio>
+
+<script src="script.js"></script>
 </body>
 </html>
